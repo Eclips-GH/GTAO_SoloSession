@@ -14,3 +14,10 @@ build/
 # IDE
 .vscode/
 .idea/
+
+# C# / Visual Studio / WinForms
+bin/
+obj/
+.vs/
+*.user
+*.suo

@@ -1,16 +1,13 @@
 # GTAO_SoloSession
 
-**GTAO Solo Session** is a lightweight PC tool that helps isolate a GTA Online public session to play solo without interruptions.
+Windows app that suspends **GTA5.exe** for a few seconds, then resumes it automatically.
 
-## Features
-- One-click solo public session
-- No game modification
-- No cheat or injection
-- Works with GTA Online public lobbies
+## How to use
+1. Launch GTA Online
+2. Open **GTAO Solo Session**
+3. Choose the duration (default: 10s)
+4. Click **Start**
 
-## Disclaimer
-This tool does not modify GTA files and does not provide unfair advantages.  
-Use at your own risk.
-
-## Status
-🚧 Early development
+## Build (dev)
+```powershell
+dotnet build -c Release .\GTAO_SoloSession\GTAO_SoloSession.csproj
