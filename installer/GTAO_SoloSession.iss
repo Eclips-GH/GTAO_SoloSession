@@ -1,7 +1,7 @@
 #define AppName "GTAO Solo Session"
 #define AppExeName "GTAO_SoloSession.exe"
-#define AppVersion "1.0.0"
-#define AppPublisher "Eclips-GH"
+#define AppVersion "1.1.0"
+#define AppPublisher "XRedEclipsX"
 #define AppURL "https://github.com/Eclips-GH/GTAO_SoloSession"
 
 [Setup]
@@ -22,6 +22,7 @@ ArchitecturesInstallIn64BitMode=x64
 PrivilegesRequired=admin
 WizardStyle=modern
 DisableProgramGroupPage=yes
+SetupIconFile=..\assets\icon.ico
 
 [Languages]
 Name: "french"; MessagesFile: "compiler:Languages\French.isl"
@@ -38,8 +39,9 @@ Source: "..\GTAO_SoloSession\bin\Release\net8.0-windows\win-x64\publish\assets\*
 Source: "dotnet-sdk-10.0.102-win-x64.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall
 
 [Icons]
-Name: "{autoprograms}\{#AppName}"; Filename: "{app}\{#AppExeName}"
-Name: "{autodesktop}\{#AppName}"; Filename: "{app}\{#AppExeName}"; Tasks: desktopicon
+Name: "{autoprograms}\GTAO Solo Session"; Filename: "{app}\GTAO_SoloSession.exe"; IconFilename: "{app}\GTAO_SoloSession.exe"
+Name: "{autodesktop}\GTAO Solo Session"; Filename: "{app}\GTAO_SoloSession.exe"; IconFilename: "{app}\GTAO_SoloSession.exe"
+
 
 [Run]
 Filename: "{tmp}\dotnet-sdk-10.0.102-win-x64.exe"; Parameters: "/install /quiet /norestart"; StatusMsg: "Installation de .NET Desktop Runtime..."; Flags: waituntilterminated; Check: NeedsDesktopRuntime
