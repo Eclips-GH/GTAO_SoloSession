@@ -29,11 +29,7 @@ namespace GTAO_SoloSession
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = true;
-<<<<<<< HEAD
-            ClientSize = new Size(520,280);
-=======
-            ClientSize = new Size(520, 310);
->>>>>>> 2beed1c6c90f0822ae8e678417c72d6434f8acfa
+            ClientSize = new Size(520, 280);
 
             // Thème (inchangé)
             BackColor = Color.FromArgb(18, 18, 22);
@@ -55,11 +51,8 @@ namespace GTAO_SoloSession
             // Logo en haut à droite (même ligne que le titre)
             _logo = new PictureBox
             {
-<<<<<<< HEAD
                 Size = new Size(100, 100), // ← logo plus grand
-=======
-                Size = new Size(96, 96), // ← logo plus grand
->>>>>>> 2beed1c6c90f0822ae8e678417c72d6434f8acfa
+
                 SizeMode = PictureBoxSizeMode.Zoom,
                 BackColor = Color.Transparent
             };
