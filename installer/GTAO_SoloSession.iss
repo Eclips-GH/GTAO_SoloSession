@@ -1,6 +1,6 @@
 #define AppName "GTAO Solo Session"
 #define AppExeName "GTAO_SoloSession.exe"
-#define AppVersion "1.1.0"
+#define AppVersion "1.1.1"
 #define AppPublisher "XRedEclipsX"
 #define AppURL "https://github.com/Eclips-GH/GTAO_SoloSession"
 
