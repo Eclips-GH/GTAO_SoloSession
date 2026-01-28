@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace GTAO_SoloSession
 {
-    public sealed class Form1 : Form
+    public partial class Form1 : Form
     {
         private readonly Button btn;
         private readonly NumericUpDown seconds;
