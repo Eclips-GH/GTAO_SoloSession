@@ -1,8 +1,4 @@
-﻿<ItemGroup>
-  <Content Include="..\assets\icon.ico" Link="assets\icon.ico" CopyToOutputDirectory="PreserveNewest" />
-</ItemGroup>
-
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -11,5 +7,9 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\assets\icon.ico" Link="assets\icon.ico" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 
 </Project>
