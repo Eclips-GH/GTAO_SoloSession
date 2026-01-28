@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <Content Include="..\assets\icon.ico" Link="assets\icon.ico" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\assets\logo.png" Link="assets\logo.png" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
+
 
 </Project>
