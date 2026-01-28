@@ -1,13 +1,22 @@
 # GTAO_SoloSession
 
-Windows app that suspends **GTA5.exe** for a few seconds, then resumes it automatically.
+Application Windows permettant de générer une session publique GTA Online en solo.
 
-## How to use
-1. Launch GTA Online
-2. Open **GTAO Solo Session**
-3. Choose the duration (default: 10s)
-4. Click **Start**
+## Téléchargement
+➡️ **[Télécharger la dernière version (Setup.exe)](../../releases/latest)**
 
-## Build (dev)
-```powershell
-dotnet build -c Release .\GTAO_SoloSession\GTAO_SoloSession.csproj
+## Installation
+1. Télécharge le fichier **Setup.exe**
+2. Lance-le (Suivant → Installer)
+3. Un raccourci est créé automatiquement
+
+✅ Le programme installe automatiquement **.NET Desktop Runtime** si nécessaire.
+
+## Utilisation
+1. Lance GTA Online
+2. Ouvre **GTAO Solo Session**
+3. Clique sur **Démarrer**
+
+## Notes
+- Aucune modification des fichiers du jeu
+- Utilisation à vos risques

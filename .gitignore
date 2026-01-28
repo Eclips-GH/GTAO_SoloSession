@@ -21,3 +21,9 @@ obj/
 .vs/
 *.user
 *.suo
+
+# dotnet publish output
+**/publish/
+
+# Inno Setup output (setup exe)
+installer/output/
