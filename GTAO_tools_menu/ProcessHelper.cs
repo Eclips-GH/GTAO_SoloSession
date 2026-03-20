@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace GTAO_SoloSession
+namespace GTAO_tools_menu
 {
     internal static class ProcessHelper
     {

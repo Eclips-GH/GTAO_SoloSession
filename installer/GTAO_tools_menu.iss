@@ -1,5 +1,5 @@
-#define AppName "GTAO Solo Session"
-#define AppExeName "GTAO_SoloSession.exe"
+#define AppName "GTAO Tools Menu"
+#define AppExeName "GTAO_tools_menu.exe"
 #define AppVersion "1.1.1"
 #define AppPublisher "XRedEclipsX"
 #define AppURL "https://github.com/Eclips-GH/GTAO_SoloSession"
@@ -15,7 +15,7 @@ AppUpdatesURL={#AppURL}
 DefaultDirName={autopf}\{#AppName}
 DefaultGroupName={#AppName}
 OutputDir=output
-OutputBaseFilename=GTAO_SoloSession_Setup_v{#AppVersion}
+OutputBaseFilename=GTAO_tools_menu_Setup_v{#AppVersion}
 Compression=lzma
 SolidCompression=yes
 ArchitecturesInstallIn64BitMode=x64
@@ -32,15 +32,15 @@ Name: "desktopicon"; Description: "Créer une icône sur le bureau"; GroupDescri
 
 [Files]
 ; --- Ton app publiée ---
-Source: "..\GTAO_SoloSession\bin\Release\net8.0-windows\win-x64\publish\{#AppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\GTAO_SoloSession\bin\Release\net8.0-windows\win-x64\publish\assets\*"; DestDir: "{app}\assets"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\GTAO_tools_menu\bin\Release\net8.0-windows\win-x64\publish\{#AppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\GTAO_tools_menu\bin\Release\net8.0-windows\win-x64\publish\assets\*"; DestDir: "{app}\assets"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 ; --- Installer du .NET Desktop Runtime (tu mets le bon nom de fichier ici) ---
 Source: "dotnet-sdk-10.0.102-win-x64.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall
 
 [Icons]
-Name: "{autoprograms}\GTAO Solo Session"; Filename: "{app}\GTAO_SoloSession.exe"; IconFilename: "{app}\GTAO_SoloSession.exe"
-Name: "{autodesktop}\GTAO Solo Session"; Filename: "{app}\GTAO_SoloSession.exe"; IconFilename: "{app}\GTAO_SoloSession.exe"
+Name: "{autoprograms}\GTAO Tools Menu"; Filename: "{app}\GTAO_tools_menu.exe"; IconFilename: "{app}\GTAO_tools_menu.exe"
+Name: "{autodesktop}\GTAO Tools Menu"; Filename: "{app}\GTAO_tools_menu.exe"; IconFilename: "{app}\GTAO_tools_menu.exe"
 
 
 [Run]

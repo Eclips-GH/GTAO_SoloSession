@@ -1,4 +1,4 @@
-namespace GTAO_SoloSession;
+namespace GTAO_tools_menu;
 
 static class Program
 {
